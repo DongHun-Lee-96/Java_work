@@ -1,0 +1,11 @@
+package staticex;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		Student studentJ = new Student();
+		System.out.println(studentJ.studentID);
+
+	}
+
+}

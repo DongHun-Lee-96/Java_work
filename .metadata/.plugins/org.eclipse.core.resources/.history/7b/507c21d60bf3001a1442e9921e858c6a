@@ -1,0 +1,13 @@
+package array;
+
+public class TwoDimensionArray {
+	
+	public static void main(String[] args) {
+		int[][] arr = new int[2][3];
+		
+		System.out.println(arr.length);//행의 길이
+		System.out.println(arr[0].length); //열의 길이		
+		System.out.println(arr[1].length);
+	}
+
+}

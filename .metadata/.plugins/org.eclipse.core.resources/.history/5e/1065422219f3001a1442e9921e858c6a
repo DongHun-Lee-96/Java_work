@@ -1,0 +1,15 @@
+package inheritance;
+
+public class Circle {
+	
+	//Aggregation
+	Point point;
+	
+	private int radius;
+	
+	public Circle() {
+		point = new Point();
+	}
+	
+	
+}

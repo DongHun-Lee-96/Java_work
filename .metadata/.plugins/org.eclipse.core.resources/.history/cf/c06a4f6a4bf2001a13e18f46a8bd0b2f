@@ -1,0 +1,14 @@
+package staticex;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		Student studentJ = new Student();
+		System.out.println(studentJ.serialNum);
+		
+		Student studentT = new Student();
+		System.out.println(studentT.serialNum);
+
+	}
+
+}
