@@ -58,9 +58,8 @@ public class AnimalTest {
 
 	}
 	
-	// 만들어진 인스턴스가 Animal 타입으로 업케스팅
 	public void moveAnimal(Animal animal) {
-		//다형성, 업케스팅이 되었지만 각각의 자식 클래스들이 move를 오버라이딩 했기 때문에 오버라이딩된 새로운 메서드가 실행
+		
 		animal.move();
 		
 		// Animal 타입으로 업캐스팅이 되면 자식클래스가 가지고 있는 메서드는 보이지 않는다
