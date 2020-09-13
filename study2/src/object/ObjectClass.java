@@ -32,5 +32,38 @@ public class ObjectClass {
 	객체의 clone메서드 사용을 허용한다는 의미로 cloneable 인터페이스를 명시해 줌
 	 */
 	
+	/*
+	 String 클래스
+	 String을 선언하는 두가지 방법
+	 String str1 = new String ("abc") //생성자의 매개변수로 문자열 생성 , 힙메모리에 생성
+	 String str2 = "test" //문자열상수를 가르키는방식, 상수풀에 생성
+	 한번 생성된 String값은 불변
+	 */
+	
+	/*
+	 StringBuidler, StringBuffer: 내부적으로 가변적인 char[]배열을 가지고 있는 클래스
+	 문자열을 여러번 연결하거나 변경할 때 사용하면 유용, 기존 배열을 변경 함으로 garbage가 생기지 않음
+	 StringBuffer은 멀티스레드 프로그래밍에서 동기화를 보장
+	 단일 스레드에서는 StringBuilder를 권장, toString()메서드로 String반환
+	 */
+	
+	/*
+	 Wrapper클래스: 기본 자료형에 대한 클래스
+	 autoboxing과 unboxing: integer은 객체이고 int는 4바이트 기본 자료형인데 
+	 두개의 자료를 같이 연산할때 자동으로 변환이 일어남
+	 */
+	
+	/*
+	 Class 클래스: 자바의 모든 클래스와 인터페이스는 컴파일 후 class파일로 생성됨
+	 class파일에는 객체의 정보(멤버변수, 메소드, 생성자 등)가 포함되어있음
+	 class클래스는 컴파일된 class파일에서 객체의 정보를 가져올 수 있음
+	 reflection 프로그래밍: Class클래스 이용하여 클래스의 정보를 가져오고 활용하며 인스턴스를 생성하고
+	 메서드를 호출하는 등의 프로그래밍 방식
+	 로컬메모리에 객체가 없어서 객체의 데이터타입을 직접 알 수 없는 경우 객체 정보만을 이용하여 프로그래밍 가능
+	
+	 동적 로딩이란? : 컴파일 시에 데이터 타입이 모두 binding되어 자료형이 로딩되는것(static loading)이
+	 아니라 실행중에 데이터 타입을 알고 binding되는 방식
+	 */
+	
 	
 }

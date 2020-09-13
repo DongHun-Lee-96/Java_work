@@ -28,4 +28,6 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="inheritance.Tiger"/>
 <fullyQualifiedTypeName name="object.Circle"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Field"/>
 </qualifiedTypeNameHistroy>
