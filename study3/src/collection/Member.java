@@ -48,7 +48,7 @@ public class Member implements Comparable<Member>, Comparator<Member>{
 	public int hashCode() {
 		return memberId;
 	}
-
+	
 	@Override
 	public int compareTo(Member member) {
 		//return (this.memberId - member.memberId)* -1;//내림차순
@@ -60,10 +60,4 @@ public class Member implements Comparable<Member>, Comparator<Member>{
 	public int compare(Member member1, Member member2) {
 		return (member1.memberId - member2.memberId);
 	}
-	
-	
-	
-	
-	
-
 }
