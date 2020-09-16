@@ -1,9 +1,0 @@
-package staticex;
-
-public class Student {
-	
-	int studentID;
-	String StudentName;
-	
-
-}

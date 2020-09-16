@@ -25,7 +25,6 @@
 <fullyQualifiedTypeName name="java.io.FileWriter"/>
 <fullyQualifiedTypeName name="java.net.Socket"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="inheritance.Tiger"/>
 <fullyQualifiedTypeName name="object.Circle"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
@@ -34,4 +33,12 @@
 <fullyQualifiedTypeName name="java.util.TreeSet"/>
 <fullyQualifiedTypeName name="collection.Member"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="innerclass.OutClass.InClass"/>
+<fullyQualifiedTypeName name="innerclass.OutClass.InStaticClass"/>
+<fullyQualifiedTypeName name="java.util.stream.IntStream"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.stream.Stream"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
 </qualifiedTypeNameHistroy>
