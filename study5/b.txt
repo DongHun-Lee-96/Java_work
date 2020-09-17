@@ -1,0 +1,1 @@
+throwsexception b.txt file
